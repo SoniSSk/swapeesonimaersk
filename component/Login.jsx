@@ -39,7 +39,7 @@ function Dashboard() {
  useEffect(() => {
 
    localStorage.removeItem("user");
- })
+ },[])
 
   const onSubmitCall  =()=>{
     LoginAPI();
