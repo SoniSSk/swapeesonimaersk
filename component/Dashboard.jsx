@@ -34,7 +34,7 @@ function Dashboard() {
        })},
    )
   .then(response => response.json())
-  .then(json => console.log(json))
+   .then(alert("Update completed"))
   
   
 }
