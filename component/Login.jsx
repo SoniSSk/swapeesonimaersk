@@ -36,14 +36,10 @@ function Dashboard() {
   
 }
 
-// useEffect(() => {
-//     registerAPI();
-//     // alert("yes");
-//     setEmail("kuldeep@gmail.com");
-//     setName("Kuldeep Soni");
-//     setPassword("swpaee@1");
-   
-// })
+ useEffect(() => {
+
+   localStorage.removeItem("user");
+ })
 
   const onSubmitCall  =()=>{
     LoginAPI();
