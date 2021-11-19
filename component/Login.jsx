@@ -55,16 +55,6 @@ function Dashboard() {
 
 
    
-else {
-  // alert(JSON.stringify(name) + " " +JSON.stringify(mobile) + " " + JSON.stringify(email) +" " + JSON.stringify(address));
-  //   console.log(name);
-  //   console.log(email);
-  //   console.log(setPassword);
- 
-   // alert("mobile.length");
-   
-  }
-  
   
   };
 
