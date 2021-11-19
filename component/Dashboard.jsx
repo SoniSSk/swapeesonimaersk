@@ -57,18 +57,19 @@ useEffect(() => {
 },[])
 
   const onSubmitCall  =()=>{
-    registerAPI();
-   
-    if (!/\S+@\S+\.\S+/.test(email)){
-        alert("Email Is not Valid ");
-       // break;
-    }
-  
-  //  else{
-  //   // registerAPI();
-  //   router.push("/login");
+          if (!/\S+@\S+\.\S+/.test(email)){
+      alert("Email Is not Valid ");
+     // break;
+  }
+  if (password ==null){
+    alert("password is not null");
+  }
+  if (name == null){
+    alert("name is not null")
+  }
+   else {registerAPI();
+        router.push("/login")}
 
-  //  }
    
   
   };
