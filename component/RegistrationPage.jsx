@@ -46,22 +46,22 @@ function RegistrationPage() {
 
   const onSubmitCall  =()=>{
     
-    registerAPI();
-    if (!/\S+@\S+\.\S+/.test(email)){
-        alert("Email Is not Valid ");
-       // break;
-    }
- 
-else {
-  // alert(JSON.stringify(name) + " " +JSON.stringify(mobile) + " " + JSON.stringify(email) +" " + JSON.stringify(address));
-  //   console.log(name);
-  //   console.log(email);
-  //   console.log(setPassword);
- 
-   // alert("mobile.length");
-
-   router.push("/login");
+      if (!/\S+@\S+\.\S+/.test(email)){
+      alert("Email Is not Valid ");
+     // break;
   }
+  if (password ==null){
+    alert("password is not null");
+  }
+  if (name == null){
+    alert("name is not null")
+  }
+   else {registerAPI();
+        router.push("/login")}
+
+   
+ 
+
    
   
   };
