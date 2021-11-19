@@ -48,12 +48,7 @@ function Dashboard() {
         alert("Email Is not Valid ");
        // break;
     }
-    if (password ==null){
-      alert("password is not null");
-    }
-    if (name == null){
-      alert("name is not null")
-    }
+    
      else {LoginAPI();}
     
     //  else if (email = localStorage)
